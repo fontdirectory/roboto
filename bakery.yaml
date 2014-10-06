@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Roboto-ThinItalic.ttf.ttx, Roboto-Thin.ttf.ttx, Roboto-Regular.ttf.ttx,
+  Roboto-MediumItalic.ttf.ttx, Roboto-Medium.ttf.ttx, Roboto-LightItalic.ttf.ttx,
+  Roboto-Light.ttf.ttx, Roboto-Italic.ttf.ttx, Roboto-BoldItalic.ttf.ttx, Roboto-Bold.ttf.ttx,
+  Roboto-BlackItalic.ttf.ttx, Roboto-Black.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

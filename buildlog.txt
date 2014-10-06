@@ -1,0 +1,1840 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/roboto/METADATA.json /home/travis/build/fontdirectory/roboto/builds/build
+$ cp -a /home/travis/build/fontdirectory/roboto/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/roboto/builds/build
+$ cp -a Roboto-ThinItalic.ttf.ttx Roboto-Thin.ttf.ttx Roboto-Regular.ttf.ttx Roboto-MediumItalic.ttf.ttx Roboto-Medium.ttf.ttx Roboto-LightItalic.ttf.ttx Roboto-Light.ttf.ttx Roboto-Italic.ttf.ttx Roboto-BoldItalic.ttf.ttx Roboto-Bold.ttf.ttx Roboto-BlackItalic.ttf.ttx Roboto-Black.ttf.ttx Roboto-ThinItalic.ttf._p_r_e_p.ttx Roboto-ThinItalic.ttf._p_o_s_t.ttx Roboto-ThinItalic.ttf._n_a_m_e.ttx Roboto-ThinItalic.ttf._m_a_x_p.ttx Roboto-ThinItalic.ttf._l_o_c_a.ttx Roboto-ThinItalic.ttf._h_m_t_x.ttx Roboto-ThinItalic.ttf._h_h_e_a.ttx Roboto-ThinItalic.ttf._h_e_a_d.ttx Roboto-ThinItalic.ttf._g_l_y_f.ttx Roboto-ThinItalic.ttf._g_a_s_p.ttx Roboto-ThinItalic.ttf._f_p_g_m.ttx Roboto-ThinItalic.ttf._c_v_t.ttx Roboto-ThinItalic.ttf._c_m_a_p.ttx Roboto-ThinItalic.ttf.O_S_2f_2.ttx Roboto-ThinItalic.ttf.GlyphOrder.ttx Roboto-ThinItalic.ttf.G_S_U_B_.ttx Roboto-ThinItalic.ttf.G_P_O_S_.ttx Roboto-ThinItalic.ttf.G_D_E_F_.ttx Roboto-Thin.ttf._p_r_e_p.ttx Roboto-Thin.ttf._p_o_s_t.ttx Roboto-Thin.ttf._n_a_m_e.ttx Roboto-Thin.ttf._m_a_x_p.ttx Roboto-Thin.ttf._l_o_c_a.ttx Roboto-Thin.ttf._h_m_t_x.ttx Roboto-Thin.ttf._h_h_e_a.ttx Roboto-Thin.ttf._h_e_a_d.ttx Roboto-Thin.ttf._g_l_y_f.ttx Roboto-Thin.ttf._g_a_s_p.ttx Roboto-Thin.ttf._f_p_g_m.ttx Roboto-Thin.ttf._c_v_t.ttx Roboto-Thin.ttf._c_m_a_p.ttx Roboto-Thin.ttf.O_S_2f_2.ttx Roboto-Thin.ttf.GlyphOrder.ttx Roboto-Thin.ttf.G_S_U_B_.ttx Roboto-Thin.ttf.G_P_O_S_.ttx Roboto-Thin.ttf.G_D_E_F_.ttx Roboto-Regular.ttf._p_r_e_p.ttx Roboto-Regular.ttf._p_o_s_t.ttx Roboto-Regular.ttf._n_a_m_e.ttx Roboto-Regular.ttf._m_a_x_p.ttx Roboto-Regular.ttf._l_o_c_a.ttx Roboto-Regular.ttf._h_m_t_x.ttx Roboto-Regular.ttf._h_h_e_a.ttx Roboto-Regular.ttf._h_e_a_d.ttx Roboto-Regular.ttf._g_l_y_f.ttx Roboto-Regular.ttf._g_a_s_p.ttx Roboto-Regular.ttf._f_p_g_m.ttx Roboto-Regular.ttf._c_v_t.ttx Roboto-Regular.ttf._c_m_a_p.ttx Roboto-Regular.ttf.O_S_2f_2.ttx Roboto-Regular.ttf.L_T_S_H_.ttx Roboto-Regular.ttf.GlyphOrder.ttx Roboto-Regular.ttf.G_S_U_B_.ttx Roboto-Regular.ttf.G_P_O_S_.ttx Roboto-MediumItalic.ttf._p_r_e_p.ttx Roboto-MediumItalic.ttf._p_o_s_t.ttx Roboto-MediumItalic.ttf._n_a_m_e.ttx Roboto-MediumItalic.ttf._m_a_x_p.ttx Roboto-MediumItalic.ttf._l_o_c_a.ttx Roboto-MediumItalic.ttf._h_m_t_x.ttx Roboto-MediumItalic.ttf._h_h_e_a.ttx Roboto-MediumItalic.ttf._h_e_a_d.ttx Roboto-MediumItalic.ttf._g_l_y_f.ttx Roboto-MediumItalic.ttf._g_a_s_p.ttx Roboto-MediumItalic.ttf._f_p_g_m.ttx Roboto-MediumItalic.ttf._c_v_t.ttx Roboto-MediumItalic.ttf._c_m_a_p.ttx Roboto-MediumItalic.ttf.O_S_2f_2.ttx Roboto-MediumItalic.ttf.L_T_S_H_.ttx Roboto-MediumItalic.ttf.GlyphOrder.ttx Roboto-MediumItalic.ttf.G_S_U_B_.ttx Roboto-MediumItalic.ttf.G_P_O_S_.ttx Roboto-Medium.ttf._p_r_e_p.ttx Roboto-Medium.ttf._p_o_s_t.ttx Roboto-Medium.ttf._n_a_m_e.ttx Roboto-Medium.ttf._m_a_x_p.ttx Roboto-Medium.ttf._l_o_c_a.ttx Roboto-Medium.ttf._h_m_t_x.ttx Roboto-Medium.ttf._h_h_e_a.ttx Roboto-Medium.ttf._h_e_a_d.ttx Roboto-Medium.ttf._g_l_y_f.ttx Roboto-Medium.ttf._g_a_s_p.ttx Roboto-Medium.ttf._f_p_g_m.ttx Roboto-Medium.ttf._c_v_t.ttx Roboto-Medium.ttf._c_m_a_p.ttx Roboto-Medium.ttf.O_S_2f_2.ttx Roboto-Medium.ttf.L_T_S_H_.ttx Roboto-Medium.ttf.GlyphOrder.ttx Roboto-Medium.ttf.G_S_U_B_.ttx Roboto-Medium.ttf.G_P_O_S_.ttx Roboto-LightItalic.ttf._p_r_e_p.ttx Roboto-LightItalic.ttf._p_o_s_t.ttx Roboto-LightItalic.ttf._n_a_m_e.ttx Roboto-LightItalic.ttf._m_a_x_p.ttx Roboto-LightItalic.ttf._l_o_c_a.ttx Roboto-LightItalic.ttf._h_m_t_x.ttx Roboto-LightItalic.ttf._h_h_e_a.ttx Roboto-LightItalic.ttf._h_e_a_d.ttx Roboto-LightItalic.ttf._g_l_y_f.ttx Roboto-LightItalic.ttf._g_a_s_p.ttx Roboto-LightItalic.ttf._f_p_g_m.ttx Roboto-LightItalic.ttf._c_v_t.ttx Roboto-LightItalic.ttf._c_m_a_p.ttx Roboto-LightItalic.ttf.O_S_2f_2.ttx Roboto-LightItalic.ttf.L_T_S_H_.ttx Roboto-LightItalic.ttf.GlyphOrder.ttx Roboto-LightItalic.ttf.G_S_U_B_.ttx Roboto-LightItalic.ttf.G_P_O_S_.ttx Roboto-Light.ttf._p_r_e_p.ttx Roboto-Light.ttf._p_o_s_t.ttx Roboto-Light.ttf._n_a_m_e.ttx Roboto-Light.ttf._m_a_x_p.ttx Roboto-Light.ttf._l_o_c_a.ttx Roboto-Light.ttf._h_m_t_x.ttx Roboto-Light.ttf._h_h_e_a.ttx Roboto-Light.ttf._h_e_a_d.ttx Roboto-Light.ttf._g_l_y_f.ttx Roboto-Light.ttf._g_a_s_p.ttx Roboto-Light.ttf._f_p_g_m.ttx Roboto-Light.ttf._c_v_t.ttx Roboto-Light.ttf._c_m_a_p.ttx Roboto-Light.ttf.O_S_2f_2.ttx Roboto-Light.ttf.L_T_S_H_.ttx Roboto-Light.ttf.GlyphOrder.ttx Roboto-Light.ttf.G_S_U_B_.ttx Roboto-Light.ttf.G_P_O_S_.ttx Roboto-Italic.ttf._p_r_e_p.ttx Roboto-Italic.ttf._p_o_s_t.ttx Roboto-Italic.ttf._n_a_m_e.ttx Roboto-Italic.ttf._m_a_x_p.ttx Roboto-Italic.ttf._l_o_c_a.ttx Roboto-Italic.ttf._h_m_t_x.ttx Roboto-Italic.ttf._h_h_e_a.ttx Roboto-Italic.ttf._h_e_a_d.ttx Roboto-Italic.ttf._g_l_y_f.ttx Roboto-Italic.ttf._g_a_s_p.ttx Roboto-Italic.ttf._f_p_g_m.ttx Roboto-Italic.ttf._c_v_t.ttx Roboto-Italic.ttf._c_m_a_p.ttx Roboto-Italic.ttf.O_S_2f_2.ttx Roboto-Italic.ttf.L_T_S_H_.ttx Roboto-Italic.ttf.GlyphOrder.ttx Roboto-Italic.ttf.G_S_U_B_.ttx Roboto-Italic.ttf.G_P_O_S_.ttx Roboto-BoldItalic.ttf._p_r_e_p.ttx Roboto-BoldItalic.ttf._p_o_s_t.ttx Roboto-BoldItalic.ttf._n_a_m_e.ttx Roboto-BoldItalic.ttf._m_a_x_p.ttx Roboto-BoldItalic.ttf._l_o_c_a.ttx Roboto-BoldItalic.ttf._h_m_t_x.ttx Roboto-BoldItalic.ttf._h_h_e_a.ttx Roboto-BoldItalic.ttf._h_e_a_d.ttx Roboto-BoldItalic.ttf._g_l_y_f.ttx Roboto-BoldItalic.ttf._g_a_s_p.ttx Roboto-BoldItalic.ttf._f_p_g_m.ttx Roboto-BoldItalic.ttf._c_v_t.ttx Roboto-BoldItalic.ttf._c_m_a_p.ttx Roboto-BoldItalic.ttf.O_S_2f_2.ttx Roboto-BoldItalic.ttf.L_T_S_H_.ttx Roboto-BoldItalic.ttf.GlyphOrder.ttx Roboto-BoldItalic.ttf.G_S_U_B_.ttx Roboto-BoldItalic.ttf.G_P_O_S_.ttx Roboto-Bold.ttf._p_r_e_p.ttx Roboto-Bold.ttf._p_o_s_t.ttx Roboto-Bold.ttf._n_a_m_e.ttx Roboto-Bold.ttf._m_a_x_p.ttx Roboto-Bold.ttf._l_o_c_a.ttx Roboto-Bold.ttf._h_m_t_x.ttx Roboto-Bold.ttf._h_h_e_a.ttx Roboto-Bold.ttf._h_e_a_d.ttx Roboto-Bold.ttf._g_l_y_f.ttx Roboto-Bold.ttf._g_a_s_p.ttx Roboto-Bold.ttf._f_p_g_m.ttx Roboto-Bold.ttf._c_v_t.ttx Roboto-Bold.ttf._c_m_a_p.ttx Roboto-Bold.ttf.O_S_2f_2.ttx Roboto-Bold.ttf.L_T_S_H_.ttx Roboto-Bold.ttf.GlyphOrder.ttx Roboto-Bold.ttf.G_S_U_B_.ttx Roboto-Bold.ttf.G_P_O_S_.ttx Roboto-BlackItalic.ttf._p_r_e_p.ttx Roboto-BlackItalic.ttf._p_o_s_t.ttx Roboto-BlackItalic.ttf._n_a_m_e.ttx Roboto-BlackItalic.ttf._m_a_x_p.ttx Roboto-BlackItalic.ttf._l_o_c_a.ttx Roboto-BlackItalic.ttf._h_m_t_x.ttx Roboto-BlackItalic.ttf._h_h_e_a.ttx Roboto-BlackItalic.ttf._h_e_a_d.ttx Roboto-BlackItalic.ttf._g_l_y_f.ttx Roboto-BlackItalic.ttf._g_a_s_p.ttx Roboto-BlackItalic.ttf._f_p_g_m.ttx Roboto-BlackItalic.ttf._c_v_t.ttx Roboto-BlackItalic.ttf._c_m_a_p.ttx Roboto-BlackItalic.ttf.O_S_2f_2.ttx Roboto-BlackItalic.ttf.L_T_S_H_.ttx Roboto-BlackItalic.ttf.GlyphOrder.ttx Roboto-BlackItalic.ttf.G_S_U_B_.ttx Roboto-BlackItalic.ttf.G_P_O_S_.ttx Roboto-Black.ttf._p_r_e_p.ttx Roboto-Black.ttf._p_o_s_t.ttx Roboto-Black.ttf._n_a_m_e.ttx Roboto-Black.ttf._m_a_x_p.ttx Roboto-Black.ttf._l_o_c_a.ttx Roboto-Black.ttf._h_m_t_x.ttx Roboto-Black.ttf._h_h_e_a.ttx Roboto-Black.ttf._h_e_a_d.ttx Roboto-Black.ttf._g_l_y_f.ttx Roboto-Black.ttf._g_a_s_p.ttx Roboto-Black.ttf._f_p_g_m.ttx Roboto-Black.ttf._c_v_t.ttx Roboto-Black.ttf._c_m_a_p.ttx Roboto-Black.ttf.O_S_2f_2.ttx Roboto-Black.ttf.L_T_S_H_.ttx Roboto-Black.ttf.GlyphOrder.ttx Roboto-Black.ttf.G_S_U_B_.ttx Roboto-Black.ttf.G_P_O_S_.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Black.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Bold.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Italic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Light.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-LightItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Medium.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-MediumItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Regular.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Thin.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-ThinItalic.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Black.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Black.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoBlack-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-BlackItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoBlack-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Bold.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Italic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Light.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Light.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-LightItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-LightItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoLight-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Medium.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Medium.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoMedium-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-MediumItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-MediumItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoMedium-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Regular.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-Thin.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Thin.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoThin-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Roboto-ThinItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-ThinItalic.ttf.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoThin-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/roboto/builds/build /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoThin-Italic.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoThin-Regular.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Regular.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoMedium-Italic.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoMedium-Regular.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoLight-Italic.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoLight-Regular.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Italic.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BoldItalic.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Bold.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoBlack-Italic.ttx /home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoBlack-Regular.ttx
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoThin-Italic.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoThin-Regular.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Regular.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoMedium-Italic.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoMedium-Regular.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoLight-Italic.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoLight-Regular.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Italic.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-BoldItalic.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/Roboto-Bold.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoBlack-Italic.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/roboto/builds/build/sources/RobotoBlack-Regular.ttx" to "/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test RobotoThin-Italic.ttf
+$ fontbakery-check.py result RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+Parameter              RobotoThin-Italic.ttf    RobotoBlack-Regular.ttf    RobotoBlack-Italic.ttf    Roboto-Bold.ttf    Roboto-BoldItalic.ttf    Roboto-Italic.ttf    RobotoLight-Regular.ttf    RobotoLight-Italic.ttf    RobotoMedium-Regular.ttf    RobotoMedium-Italic.ttf    Roboto-Regular.ttf    RobotoThin-Regular.ttf    
+ymax                   2146                     2174                       2179                      2172               2172                     2163                 2146                       2146                      2169                        2169                       2167                  2146                      
+hhea.ascent            2179                     2179                       2179                      2179               2179                     2179                 2179                       2179                      2179                        2179                       2179                  2179                      
+OS/2.sTypoAscender     2179                     2179                       2179                      2179               2179                     2179                 2179                       2179                      2179                        2179                       2179                  2179                      
+OS/2.usWinAscent       2179                     2179                       2179                      2179               2179                     2179                 2179                       2179                      2179                        2179                       2179                  2179                      
+ymin                   -555                     -555                       -555                      -555               -555                     -555                 -555                       -555                      -555                        -555                       -555                  -555                      
+hhea.descent           -555                     -555                       -555                      -555               -555                     -555                 -555                       -555                      -555                        -555                       -555                  -555                      
+OS/2.sTypoDescender    -555                     -555                       -555                      -555               -555                     -555                 -555                       -555                      -555                        -555                       -555                  -555                      
+OS/2.usWinDescent      555                      555                        555                       555                555                      555                  555                        555                       555                         555                        555                   555                       
+hhea.lineGap           0                        0                          0                         0                  0                        0                    0                          0                         0                           0                          0                     0                         
+OS/2.sTypoLineGap      0                        0                          0                         0                  0                        0                    0                          0                         0                           0                          0                     0                         
+hhea total             2734                     2734                       2734                      2734               2734                     2734                 2734                       2734                      2734                        2734                       2734                  2734                      
+typo total             2734                     2734                       2734                      2734               2734                     2734                 2734                       2734                      2734                        2734                       2734                  2734                      
+win total              2734                     2734                       2734                      2734               2734                     2734                 2734                       2734                      2734                        2734                       2734                  2734                      
+UPM:Heights            2048:2701                2048:2729                  2048:2734                 2048:2727          2048:2727                2048:2718            2048:2701                  2048:2701                 2048:2724                   2048:2724                  2048:2722             2048:2701                 
+UPM:Heights %          131 %                    133 %                      133 %                     133 %              133 %                    132 %                131 %                      131 %                     133 %                       133 %                      132 %                 131 %                     
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoThin-Italic.ttf
+$ ls -l 'RobotoThin-Italic.ttf'* # look at the size savings of that subset process
+RobotoThin-Italic.ttf.opt: 119736 bytes
+RobotoThin-Italic.ttf: 129988 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+### Autohint TTFs (ttfautohint) RobotoThin-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf: 119736 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.autohint.ttf: 116908 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+### Subset TTFs (pyftsubset) RobotoThin-Italic.ttf
+$ pyftsubset RobotoThin-Italic.latin
+$ pyftsubset RobotoThin-Italic.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Italic.ttf
+spaceWidth is    490
+nbspWidth is     490
+Nothing to do
+### Test RobotoThin-Regular.ttf
+$ fontbakery-check.py result RobotoThin-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoThin-Regular.ttf
+$ ls -l 'RobotoThin-Regular.ttf'* # look at the size savings of that subset process
+RobotoThin-Regular.ttf.opt: 117436 bytes
+RobotoThin-Regular.ttf: 127652 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+### Autohint TTFs (ttfautohint) RobotoThin-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf: 117436 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.autohint.ttf: 112848 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+### Subset TTFs (pyftsubset) RobotoThin-Regular.ttf
+$ pyftsubset RobotoThin-Regular.latin
+$ pyftsubset RobotoThin-Regular.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoThin-Regular.ttf
+spaceWidth is    490
+nbspWidth is     490
+Nothing to do
+### Test Roboto-Regular.ttf
+$ fontbakery-check.py result Roboto-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Roboto-Regular.ttf
+$ ls -l 'Roboto-Regular.ttf'* # look at the size savings of that subset process
+Roboto-Regular.ttf.opt: 131736 bytes
+Roboto-Regular.ttf: 142908 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+### Autohint TTFs (ttfautohint) Roboto-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf '/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf: 131736 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.autohint.ttf: 112792 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+### Subset TTFs (pyftsubset) Roboto-Regular.ttf
+$ pyftsubset Roboto-Regular.latin
+$ pyftsubset Roboto-Regular.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Regular.ttf
+spaceWidth is    509
+nbspWidth is     509
+Nothing to do
+### Test RobotoMedium-Italic.ttf
+$ fontbakery-check.py result RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoMedium-Italic.ttf
+$ ls -l 'RobotoMedium-Italic.ttf'* # look at the size savings of that subset process
+RobotoMedium-Italic.ttf.opt: 134028 bytes
+RobotoMedium-Italic.ttf: 145220 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+### Autohint TTFs (ttfautohint) RobotoMedium-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf: 134028 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.autohint.ttf: 121832 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+### Subset TTFs (pyftsubset) RobotoMedium-Italic.ttf
+$ pyftsubset RobotoMedium-Italic.latin
+$ pyftsubset RobotoMedium-Italic.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Italic.ttf
+spaceWidth is    486
+nbspWidth is     486
+Nothing to do
+### Test RobotoMedium-Regular.ttf
+$ fontbakery-check.py result RobotoMedium-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoMedium-Regular.ttf
+$ ls -l 'RobotoMedium-Regular.ttf'* # look at the size savings of that subset process
+RobotoMedium-Regular.ttf.opt: 125988 bytes
+RobotoMedium-Regular.ttf: 137148 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+### Autohint TTFs (ttfautohint) RobotoMedium-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf: 125988 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.autohint.ttf: 114600 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+### Subset TTFs (pyftsubset) RobotoMedium-Regular.ttf
+$ pyftsubset RobotoMedium-Regular.latin
+$ pyftsubset RobotoMedium-Regular.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoMedium-Regular.ttf
+spaceWidth is    510
+nbspWidth is     510
+Nothing to do
+### Test RobotoLight-Italic.ttf
+$ fontbakery-check.py result RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoLight-Italic.ttf
+$ ls -l 'RobotoLight-Italic.ttf'* # look at the size savings of that subset process
+RobotoLight-Italic.ttf.opt: 132008 bytes
+RobotoLight-Italic.ttf: 143196 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+### Autohint TTFs (ttfautohint) RobotoLight-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf: 132008 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.autohint.ttf: 120456 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+### Subset TTFs (pyftsubset) RobotoLight-Italic.ttf
+$ pyftsubset RobotoLight-Italic.latin
+$ pyftsubset RobotoLight-Italic.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Italic.ttf
+spaceWidth is    474
+nbspWidth is     474
+Nothing to do
+### Test RobotoLight-Regular.ttf
+$ fontbakery-check.py result RobotoLight-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoLight-Regular.ttf
+$ ls -l 'RobotoLight-Regular.ttf'* # look at the size savings of that subset process
+RobotoLight-Regular.ttf.opt: 130568 bytes
+RobotoLight-Regular.ttf: 141760 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+### Autohint TTFs (ttfautohint) RobotoLight-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf: 130568 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.autohint.ttf: 121272 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+### Subset TTFs (pyftsubset) RobotoLight-Regular.ttf
+$ pyftsubset RobotoLight-Regular.latin
+$ pyftsubset RobotoLight-Regular.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoLight-Regular.ttf
+spaceWidth is    498
+nbspWidth is     498
+Nothing to do
+### Test Roboto-Italic.ttf
+$ fontbakery-check.py result Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Roboto-Italic.ttf
+$ ls -l 'Roboto-Italic.ttf'* # look at the size savings of that subset process
+Roboto-Italic.ttf.opt: 138596 bytes
+Roboto-Italic.ttf: 149824 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+### Autohint TTFs (ttfautohint) Roboto-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf '/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf: 138596 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.autohint.ttf: 123200 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+### Subset TTFs (pyftsubset) Roboto-Italic.ttf
+$ pyftsubset Roboto-Italic.latin
+$ pyftsubset Roboto-Italic.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Italic.ttf
+spaceWidth is    485
+nbspWidth is     485
+Nothing to do
+### Test Roboto-BoldItalic.ttf
+$ fontbakery-check.py result Roboto-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Roboto-BoldItalic.ttf
+$ ls -l 'Roboto-BoldItalic.ttf'* # look at the size savings of that subset process
+Roboto-BoldItalic.ttf.opt: 131220 bytes
+Roboto-BoldItalic.ttf: 142400 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Roboto-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf '/home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf: 131220 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.autohint.ttf: 123524 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Roboto-BoldItalic.ttf
+$ pyftsubset Roboto-BoldItalic.latin
+$ pyftsubset Roboto-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/Roboto-BoldItalic.ttf
+spaceWidth is    486
+nbspWidth is     486
+Nothing to do
+### Test Roboto-Bold.ttf
+$ fontbakery-check.py result Roboto-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Roboto-Bold.ttf
+$ ls -l 'Roboto-Bold.ttf'* # look at the size savings of that subset process
+Roboto-Bold.ttf.opt: 124572 bytes
+Roboto-Bold.ttf: 135732 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+### Autohint TTFs (ttfautohint) Roboto-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf '/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf: 124572 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.autohint.ttf: 117096 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+### Subset TTFs (pyftsubset) Roboto-Bold.ttf
+$ pyftsubset Roboto-Bold.latin
+$ pyftsubset Roboto-Bold.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/Roboto-Bold.ttf
+spaceWidth is    510
+nbspWidth is     510
+Nothing to do
+### Test RobotoBlack-Italic.ttf
+$ fontbakery-check.py result RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoBlack-Italic.ttf
+$ ls -l 'RobotoBlack-Italic.ttf'* # look at the size savings of that subset process
+RobotoBlack-Italic.ttf.opt: 135800 bytes
+RobotoBlack-Italic.ttf: 146988 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+### Autohint TTFs (ttfautohint) RobotoBlack-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf: 135800 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.autohint.ttf: 123476 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+### Subset TTFs (pyftsubset) RobotoBlack-Italic.ttf
+$ pyftsubset RobotoBlack-Italic.latin
+$ pyftsubset RobotoBlack-Italic.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Italic.ttf
+spaceWidth is    486
+nbspWidth is     486
+Nothing to do
+### Test RobotoBlack-Regular.ttf
+$ fontbakery-check.py result RobotoBlack-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+The glyph named hook is mapped to U+0309.
+But its name indicates it should be mapped to U+2440.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.fix /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF RobotoBlack-Regular.ttf
+$ ls -l 'RobotoBlack-Regular.ttf'* # look at the size savings of that subset process
+RobotoBlack-Regular.ttf.opt: 132780 bytes
+RobotoBlack-Regular.ttf: 143936 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf.opt /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+### Autohint TTFs (ttfautohint) RobotoBlack-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf '/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf: 132780 bytes
+/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.autohint.ttf: 124816 bytes
+$ mv /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.autohint.ttf /home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+### Subset TTFs (pyftsubset) RobotoBlack-Regular.ttf
+$ pyftsubset RobotoBlack-Regular.latin
+$ pyftsubset RobotoBlack-Regular.menu
+strippedname:/home/travis/build/fontdirectory/roboto/builds/build/RobotoBlack-Regular.ttf
+spaceWidth is    510
+nbspWidth is     510
+Nothing to do
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/roboto/builds/build
+{} exists
+Designer's name from font is: Google
+Original size: 124816\nGzip size: 69907
+Family Name: Roboto Thin
+PS Name: Roboto-Black
+Full Name: Roboto Black
+Style: normal
+Weight: 900
+Filename: RobotoBlack-Regular.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-BlackItalic
+Full Name: Roboto Black Italic
+Style: italic
+Weight: 900
+Filename: RobotoBlack-Italic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-Bold
+Full Name: Roboto Bold
+Style: normal
+Weight: 700
+Filename: Roboto-Bold.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-BoldItalic
+Full Name: Roboto Bold Italic
+Style: italic
+Weight: 700
+Filename: Roboto-BoldItalic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-Italic
+Full Name: Roboto Italic
+Style: italic
+Weight: 400
+Filename: Roboto-Italic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-Light
+Full Name: Roboto Light
+Style: normal
+Weight: 300
+Filename: RobotoLight-Regular.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-LightItalic
+Full Name: Roboto Light Italic
+Style: italic
+Weight: 300
+Filename: RobotoLight-Italic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-Medium
+Full Name: Roboto Medium
+Style: normal
+Weight: 500
+Filename: RobotoMedium-Regular.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-MediumItalic
+Full Name: Roboto Medium Italic
+Style: italic
+Weight: 500
+Filename: RobotoMedium-Italic.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-Regular
+Full Name: Roboto Regular
+Style: normal
+Weight: 400
+Filename: Roboto-Regular.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-Thin
+Full Name: Roboto Thin
+Style: normal
+Weight: 250
+Filename: RobotoThin-Regular.ttf
+Copyright: Font data copyright Google 2012
+Family Name: Roboto Thin
+PS Name: Roboto-ThinItalic
+Full Name: Roboto Thin Italic
+Style: italic
+Weight: 250
+Filename: RobotoThin-Italic.ttf
+Copyright: Font data copyright Google 2012-2013
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_greek(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_greek_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_vietnamese(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+{
+  "name": "Roboto", 
+  "designer": "Christian Robertson", 
+  "license": "Apache2", 
+  "visibility": "External", 
+  "category": "Sans Serif", 
+  "size": 76809, 
+  "fonts": [
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Black", 
+      "fullName": "Roboto Black", 
+      "style": "normal", 
+      "weight": 900, 
+      "filename": "RobotoBlack-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-BlackItalic", 
+      "fullName": "Roboto Black Italic", 
+      "style": "italic", 
+      "weight": 900, 
+      "filename": "RobotoBlack-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Bold", 
+      "fullName": "Roboto Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Roboto-Bold.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-BoldItalic", 
+      "fullName": "Roboto Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "Roboto-BoldItalic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Italic", 
+      "fullName": "Roboto Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "Roboto-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Light", 
+      "fullName": "Roboto Light", 
+      "style": "normal", 
+      "weight": 300, 
+      "filename": "RobotoLight-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-LightItalic", 
+      "fullName": "Roboto Light Italic", 
+      "style": "italic", 
+      "weight": 300, 
+      "filename": "RobotoLight-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Medium", 
+      "fullName": "Roboto Medium", 
+      "style": "normal", 
+      "weight": 500, 
+      "filename": "RobotoMedium-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-MediumItalic", 
+      "fullName": "Roboto Medium Italic", 
+      "style": "italic", 
+      "weight": 500, 
+      "filename": "RobotoMedium-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Regular", 
+      "fullName": "Roboto Regular", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Roboto-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-Thin", 
+      "fullName": "Roboto Thin", 
+      "style": "normal", 
+      "weight": 250, 
+      "filename": "RobotoThin-Regular.ttf", 
+      "copyright": "Font data copyright Google 2012"
+    }, 
+    {
+      "name": "Roboto Thin", 
+      "postScriptName": "Roboto-ThinItalic", 
+      "fullName": "Roboto Thin Italic", 
+      "style": "italic", 
+      "weight": 250, 
+      "filename": "RobotoThin-Italic.ttf", 
+      "copyright": "Font data copyright Google 2012-2013"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2013-01-09"
+}
